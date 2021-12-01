@@ -16,6 +16,7 @@
 
 package net.dv8tion.jda.api.interactions.commands.interactions;
 
+<<<<<<< HEAD:src/main/java/net/dv8tion/jda/api/interactions/commands/interactions/SlashCommandInteraction.java
 import net.dv8tion.jda.api.events.interaction.commands.SlashCommandEvent;
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.Role;
@@ -24,10 +25,13 @@ import net.dv8tion.jda.api.events.interaction.commands.SlashCommandEvent;
 import net.dv8tion.jda.api.interactions.commands.OptionMapping;
 import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.entities.*;
+=======
+import net.dv8tion.jda.api.entities.Member;
+import net.dv8tion.jda.api.entities.MessageChannel;
+import net.dv8tion.jda.api.entities.Role;
+import net.dv8tion.jda.api.entities.User;
+>>>>>>> 54871dee319ddafbbf617156411b95c856df552a:src/main/java/net/dv8tion/jda/api/interactions/commands/CommandInteraction.java
 import net.dv8tion.jda.api.interactions.Interaction;
-import net.dv8tion.jda.internal.entities.MemberImpl;
-import net.dv8tion.jda.internal.entities.RoleImpl;
-import net.dv8tion.jda.internal.entities.UserImpl;
 import net.dv8tion.jda.internal.utils.Checks;
 
 import javax.annotation.Nonnull;
